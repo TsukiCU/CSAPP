@@ -1,4 +1,4 @@
-##This is a quick manual of how to defuse all the bombs
+# This is a quick manual of how to defuse all the bombs
 
 first open the bomb with gdb
 
@@ -8,7 +8,8 @@ Type "apropos word" to search for commands related to "word"...
 Reading symbols from bomb...
 (gdb)
 
-- **phase 1**
+## phase 1
+
 `(gdb) disas phase_1`
 ```shell
 Dump of assembler code for function phase_1:
@@ -43,7 +44,8 @@ Phase 1 defused. How about the next one?
 
 
 
-- **phase 2**
+## phase 2
+
 I must say I am starting to like this game.
 This second phase is a lot fun.
 
@@ -98,7 +100,7 @@ The password is **1 2 4 8 16 32**
 
 
 
-- **phase 3**
+# phase 3
 This is getting more fun.
 first gdb it as usual.
 
@@ -245,7 +247,8 @@ answers, which are:
 
 
 
-- **phase 4**
+## phase 4
+
 **What is our goal?**
 To defuse the bomb? Or To understand every detail behind the code?
 The problem is so really simple that we can easily get the correct defusing password within 3 guesses :D
@@ -285,7 +288,8 @@ func4 is apparently a recursive function, and it is somehow confusing tbh. So th
 
 
 
-- **phase 5**
+## phase 5
+
 I finished this lab in such a hurry. I should definitely come back and do it one more time with much more patience.
 
 Firstly, it's not hard to find out that the secret word for this phase is a string. Here's a function `string_length` that we are not stranger to:
@@ -362,3 +366,5 @@ One of the possible solution is ***ionefg***
 
 
 !!!! We are so close to defuse this bomb !!!!
+
+## phase 6
