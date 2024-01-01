@@ -1,6 +1,7 @@
 # CSAPP
 This is the lab for CS:APP.
 
-Finished:
+## Finished:
 datalab
+bomblab
 
