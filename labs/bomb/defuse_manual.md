@@ -100,7 +100,7 @@ The password is **1 2 4 8 16 32**
 
 
 
-# phase 3
+## phase 3
 This is getting more fun.
 first gdb it as usual.
 
@@ -365,6 +365,12 @@ The idea should be pretty clear by now, so I'll just go straight to the results 
 One of the possible solution is ***ionefg***
 
 
-!!!! We are so close to defuse this bomb !!!!
+!!!! We are so close to defuse this bomb !!!! (After I look into phase_6 I found that I was not even half way there.)
 
 ## phase 6
+
+***This one is fucking crazy.***
+
+The first double-loop tells us The key should be 6 integers, and is consisted of 1 to 6, but we don't know the order.
+
+You know what, I'm not in the mood of writing this manual after staring at screen for the whole afternoon. I will do this some time later.
